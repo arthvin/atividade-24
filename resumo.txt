@@ -1,0 +1,14 @@
+Produtor:
+Elemento responsável por enviar mensagens para uma fila.
+
+Consumidor:
+Elemento que recebe e processa as mensagens armazenadas na fila.
+
+Fila:
+Espaço onde as mensagens ficam guardadas até serem processadas, geralmente seguindo a ordem FIFO (First In, First Out).
+
+Mensageria:
+Método que facilita a comunicação assíncrona entre diferentes partes de um sistema, permitindo o envio e recebimento de mensagens de maneira desacoplada.
+
+RabbitMQ, BullMQ, Kafka:
+Plataformas que implementam sistemas de mensageria, utilizando filas para comunicação assíncrona. RabbitMQ opera com o protocolo AMQP, BullMQ é baseado no Redis e Kafka é projetado para alta escalabilidade e processamento distribuído.
